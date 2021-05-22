@@ -14,7 +14,7 @@ main {
 }
 
 #search-bar {
-    width: 520px;
+    width: 485px;
     height: 42px;
     outline: none;
     border: solid lightgray 1px;
@@ -55,4 +55,72 @@ main {
     border: solid 1px rgb(206, 206, 206);
     color: black;
     cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0px;
+    margin-bottom: 8%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 0.83rem;
+    font-family: Arial;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 0px;
+    margin-top: 13px;
+}
+
+ul li {
+    margin: 0 8px;
+}
+
+#apps-button {
+    border: none;
+    background: none;
+    position: relative;
+    bottom: 3px;
+    padding: 0;
+}
+
+#apps-button svg {
+    fill: rgb(117, 117, 117);
+}
+
+#apps-button svg:hover {
+    fill: black;
+    cursor: pointer;
+}
+
+#sign-in {
+    background-color: rgb(69, 130, 235); 
+    font-weight: bolder;
+    padding: 6px 13px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 6px;
+}
+
+#sign-in:active {
+    background-color: rgb(60, 114, 207); 
+}
+
+#sign-in a {
+    color: white;
+    text-decoration: none;
+    cursor: default;
 }
