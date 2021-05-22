@@ -27,7 +27,7 @@ main {
 
 @media (max-width: 768px) {
     #search-bar {
-        width: 75vw;
+        width: 60vw;
     }
 }
 
@@ -83,6 +83,18 @@ ul {
     padding-right: 9px;
     padding-top: 0px;
     margin-top: 13px;
+}
+
+@media (max-width: 375px) {
+    #gmail-link {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    #images-link {
+        display:none
+    }
 }
 
 ul li {
