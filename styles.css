@@ -19,7 +19,7 @@ main {
     outline: none;
     border: solid lightgray 1px;
     border-radius: 25px;
-    background: url(search-bar-icon.svg) no-repeat 13px 50%, url(mic-icon.svg) no-repeat  97% 50%;
+    background: url(images/search-bar-icon.svg) no-repeat 13px 50%, url(images/mic-icon.svg) no-repeat  97% 50%;
     padding-right: 50px;
     padding-left: 45px;
     font-size: 1rem;
